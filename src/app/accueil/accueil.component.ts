@@ -11,6 +11,8 @@ export class AccueilComponent implements OnInit {
 
   constructor(private readonly listPersonnelService: ListPersonnelService) {}
 
+  name : string = "Thomas";
+
   ngOnInit(): void {
     this.random();
   }
